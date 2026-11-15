@@ -1,0 +1,30 @@
+{
+  "name": "BrightSmile Dental Clinic",
+  "description": "A family dental clinic (fictional, for this demo).",
+  "timezone": "America/New_York",
+  "utcOffsetMinutes": -300,
+  "address": "120 Main Street, Springfield",
+  "phone": "+1 555 0100",
+  "hours": {
+    "mon": ["09:00", "17:00"],
+    "tue": ["09:00", "17:00"],
+    "wed": ["09:00", "17:00"],
+    "thu": ["09:00", "19:00"],
+    "fri": ["09:00", "15:00"],
+    "sat": null,
+    "sun": null
+  },
+  "slotMinutes": 30,
+  "services": [
+    { "id": "checkup", "name": "Check-up & Cleaning", "minutes": 60, "price": "$120" },
+    { "id": "whitening", "name": "Teeth Whitening", "minutes": 90, "price": "$350" },
+    { "id": "consult", "name": "Free Consultation", "minutes": 30, "price": "Free" },
+    { "id": "emergency", "name": "Emergency Visit", "minutes": 30, "price": "$90" }
+  ],
+  "faq": [
+    { "q": "insurance", "a": "We accept most major dental insurance plans, including Delta Dental, Cigna and Aetna. Bring your card to your visit." },
+    { "q": "parking", "a": "Free parking is available behind the building." },
+    { "q": "cancellation", "a": "Please cancel or reschedule at least 24 hours in advance. Late cancellations may incur a $30 fee." },
+    { "q": "payment", "a": "We accept cash, all major credit cards and payment plans for treatments over $500." }
+  ]
+}
